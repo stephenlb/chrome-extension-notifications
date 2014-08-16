@@ -1,0 +1,16 @@
+{
+    "name"             : "Chrome Extention Notifications",
+    "version"          : "1.0",
+    "manifest_version" : 2,
+    "description"      : "Google Chrome Extention Notifications provide Boilerplate for notify.js a broadcasting notification script for your google chrome extention.",
+    "icons"            : { "16" : "images/icon.png", "48" : "images/icon.png", "128" : "images/icon.png" },
+    "homepage_url"     : "https://www.pubnub.com/",
+    "permissions"      : [ "notifications", "https://*.pubnub.com/*" ],
+    "background"       : { "page" : "background.html" },
+    "web_accessible_resources" : [ "images/icon.png" ],
+    "browser_action" : {
+        "default_icon"  : "images/icon.png",
+        "default_title" : "Chrome Extention Notifications",
+        "default_popup" : "popup.html"
+    }
+}
